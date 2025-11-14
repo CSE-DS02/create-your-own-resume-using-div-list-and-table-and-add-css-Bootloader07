@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #e8e8e8;
+    font-family: Arial, sans-serif;
+}
+
+.resume-container {
+    width: 65%;
+    margin: 30px auto;
+    background: rgb(255, 249, 235);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header p {
+    font-size: 18px;
+    color: #555;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section {
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    border-left: 4px solid #007acc;
+    padding-left: 8px;
+    color: #007acc;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info p {
+    margin: 3px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skills-box {
+    background: #f3faff;
+    padding: 10px 15px;
+    border-left: 4px solid #007acc;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    margin-top: 5px;
+}
+
+li {
+    margin-bottom: 5px;
+}
