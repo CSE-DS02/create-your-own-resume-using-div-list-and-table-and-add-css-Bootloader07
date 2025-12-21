@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid 1</title>
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            box-sizing:border-box;
+            text-align:center;
+        }
+        html,*{
+            margin:0px;
+            padding:0px;
+        }
+        main{
+            height:auto;
+            width: 414px;
+            background-color: rgb(255, 255, 255);
+            display: grid;
+            grid-template-rows:100px 300px 100px;
+            gap:10px;
+        }
+        .Text{
+            
+            background-color: rgb(255, 238, 143);
+        }
+        #Text1{
+            display:grid;
+            grid-template-columns:100px 300px;
+            gap:10px;
+            background-color: rgb(255, 255, 255);
+        }
+        #Box1{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap:10px;
+        }
+        .Mainbox{
+            background-color: rgb(206, 255, 194);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="Text"><h1><b>Box 0</b></h1></div>
+        <div class="Text" id="Text1">
+            <div class="b" style="background-color: rgb(174, 214, 255);"><h1><b>Aside</b></h1></div>
+            <div class="Box" id="Box1">
+                <div class="Mainbox">Box 1</div>
+                <div class="Mainbox">Box 2</div>
+                <div class="Mainbox">Box 3</div>
+                <div class="Mainbox">Box 4</div>
+            </div>
+        </div>
+        <div class="Text"><h1><b>Box5</b></h1></div>
+    </main>
+</body>
+</html>
