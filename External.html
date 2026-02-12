@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Form</title>
+
+    <style>
+        body {
+            background-color: light-grey;
+        }
+        form {
+            width: 350px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid black;
+        }
+        h1 { 
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        input[type="submit"],input[type="reset"] {
+            width: 48%;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Booking Form</h1>
+        <label>Full Name:</label>
+        <input type="text" maxlength="20" required>
+        <label>Email:</label>
+        <input type="email" required>
+        <label>Phone:</label>
+        <input type="tel" required>
+        <label>Check-in Date:</label>
+        <input type="date" required>
+        <label>Check-out Date:</label>
+        <input type="date" required>
+        <label>Room Type:</label>
+        <select required>
+            <option>Single Room</option>
+            <option>Double Room</option>
+            <option>Triple Room</option>
+        </select>
+        <label>Number of Guests:</label>
+        <input type="number" min="1" max="10" required>
+        <br>
+        <input type="submit" value="Book Now">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
